@@ -10,7 +10,6 @@ subjects:
 - kind: ServiceAccount
   name: likhitha-sa
   namespace: team3-ns
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
  kind: Role
  name: likhitha-role
